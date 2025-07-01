@@ -62,13 +62,49 @@ input[type="text"]:focus {
     background-color: #f1f8e9;
 }
 
-.error {
-    color: #c62828;
-    background-color: #ffebee;
-    border-left: 4px solid #b71c1c;@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+button:hover {
+    background-color: #1b5e20;
+}
+
+#limpar {
+    background-color: #c62828;
+}
+
+#limpar:hover {
+    background-color: #b71c1c;
+}
+
+#lista-enderecos {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.endereco-item {
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2e7d32;
+}
+
+.endereco-item h3 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+.endereco-item p {
+    margin: 5px 0;
+    font-size: 14px;
 }
